@@ -213,3 +213,56 @@ footer {
 .has-dialog {
   overflow: hidden;
 }
+
+.carousel-slide {
+  min-height: 500px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-bg-1 {
+  background-image: url('../img/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  p {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+.carousel-bg-2 {
+  background-image: url('../img/bg2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  p {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+.carousel-bg-3 {
+  background-image: url('../img/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  p {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+/* SLICK OVERRIDES */
+
+.slick-prev:before, .slick-next:before {
+  color: blue;
+}
+
+.slick-slide img {
+  width: 100%;
+}
